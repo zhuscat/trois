@@ -1,4 +1,4 @@
-# trois
+# trois ![TravisCI](https://travis-ci.org/zhuscat/trois.svg?branch=master)
 
 A JavaScript Util Toolbox.
 

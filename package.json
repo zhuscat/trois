@@ -1,6 +1,6 @@
 {
   "name": "trois",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript Util Library",
   "main": "lib/trois.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.2.0",
     "eslint-plugin-react": "^6.1.2",
+    "istanbul": "^0.4.5",
     "jsdoc": "^3.4.0",
     "mocha": "^3.0.2",
     "mocha-lcov-reporter": "^1.2.0",

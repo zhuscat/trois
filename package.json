@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:dev": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
   },
   "author": "zhuscat",
   "license": "MIT",

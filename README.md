@@ -33,41 +33,41 @@ let components = trois.url.getUrlComponents(url);
 
 ### trois.format.camelize(obj)
 
-camelize <obj>
+camelize `obj`
 
 **Parameters**
 
-**str**: `*`, camelize <obj>
+**obj**: `*`, camelize `obj`
 
 **Returns**: `*`
 
 ### trois.is.isArray(value)
 
-test if <value> is an array.
+test if `value` is an array.
 
 **Parameters**
 
-**value**: `*`, test if <value> is an array.
+**value**: `*`, test if `value` is an array.
 
 **Returns**: `boolean`
 
 ### trois.is.isRegex(value)
 
-test if <value> is an instance of RegExp.
+test if `value` is an instance of RegExp.
 
 **Parameters**
 
-**value**: `*`, test if <value> is an instance of RegExp.
+**value**: `*`, test if `value` is an instance of RegExp.
 
 **Returns**: `boolean`
 
 ### trois.is.isDate(value)
 
-test if <value> is an instance of Date.
+test if `value` is an instance of Date.
 
 **Parameters**
 
-**value**: `*`, test if <value> is an instance of Date.
+**value**: `*`, test if `value` is an instance of Date.
 
 **Returns**: `boolean`
 
@@ -93,36 +93,36 @@ Unescape HTML special characters
 
 ### trois.url.getUrlComponents(url)
 
-Convert <url> to an object with its components
+Convert `url` to an object with its components
 
 **Parameters**
 
-**url**: `string`, Convert <url> to an object with its components
+**url**: `string`, Convert `url` to an object with its components
 
 **Returns**: `object`
 
 ### trois.url.getQueryString(args)
 
-Convert <args> to a query string.
-The <args> parameter should be an object
-like {key1: value1, key2: value2}.
+Convert `args` to a query string.
+The `args` parameter should be an object
+like `{key1: value1, key2: value2}`.
 
 **Parameters**
 
-**args**: `object`, Convert <args> to a query string.
-The <args> parameter should be an object
+**args**: `object`, Convert `args` to a query string.
+The `args` parameter should be an object
 like {key1: value1, key2: value2}.
 
 **Returns**: `string`
 
 ### trois.url.getQueryArgs(qs)
 
-Convert <qs> to an object.
-The <qs> parameter should be a string.
+Convert `qs` to an object.
+The `qs` parameter should be a string.
 
 **Parameters**
 
-**qs**: `string`, Convert <qs> to an object.
-The <qs> parameter should be a string.
+**qs**: `string`, Convert `qs` to an object.
+The `qs` parameter should be a string.
 
 **Returns**: `object`
